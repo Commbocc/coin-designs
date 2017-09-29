@@ -1,0 +1,24 @@
+---
+---
+
+// @import "bootstrap/functions";
+// @import "variables";
+// @import "bootstrap/mixins";
+@import "bootstrap/bootstrap";
+
+body {
+	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#designs {
+	& > .jumbotron {
+		background: theme-color("light");
+		color: theme-color("dark");
+		&:nth-child(even) {
+			background: theme-color("dark");
+			color: theme-color("light");
+		}
+	}
+}
