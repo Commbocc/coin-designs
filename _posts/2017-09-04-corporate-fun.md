@@ -1,6 +1,6 @@
 ---
 layout: main
-title: "&quot;Corporate Fun&quot; Design"
+title: Corporate Fun
 image1_src: /assets/images/palette-corporate-fun.png
 image2_src: /assets/images/corporate-fun.png
 subdir: corporate-fun

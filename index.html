@@ -8,15 +8,15 @@ layout: main
 	<section class="jumbotron jumbotron-fluid mb-0">
 		<div class="container">
 			<h2 class="text-center mb-4">
-				{{ post.title }}
+				"{{ post.title }}" Design
 			</h2>
 			<div class="row align-items-center">
-				<div class="col-md-6">
+				<div class="col-6">
 					<a href="{{ post.coolors_link }}" target="_blank">
 						<img src="{{ post.image1_src | prepend: site.baseurl }}" class="img-fluid mx-auto mb-3">
 					</a>
 				</div>
-				<div class="col-md-6">
+				<div class="col-6">
 					<div class="card border border-info p-1">
 						<a href="{{ post.subdir | prepend: '/' | prepend: site.baseurl }}" class="" target="_blank">
 							<img src="{{ post.image2_src | prepend: site.baseurl }}" class="img-fluid mx-auto mb-3">
