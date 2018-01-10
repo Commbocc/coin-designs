@@ -1,0 +1,62 @@
+---
+---
+
+body {
+  background: #f0f4f7;
+  font-family: 'Lato', sans-serif;
+}
+
+#navigation {
+  background: url('/coin-designs/assets/images/internal/nav-bg.png');
+}
+
+#main {
+  flex: 0 0 56.8% !important;
+  max-width: 56.8% !important;
+}
+
+#sidebar1 {
+  flex: 0 0 22.5% !important;
+  max-width: 22.5% !important;
+  background: #273d54;
+  color: #fff;
+}
+
+#sidebar2 {
+  flex: 0 0 20.7% !important;
+  max-width: 20.7% !important;
+  border-left: solid 2px #f5b547;
+}
+
+.list-unstyled li {
+  margin-bottom: .5rem;
+}
+
+.breadcrumb {
+  background: none;
+  padding: 0;
+}
+
+.breadcrumb-item a {
+  color: #c73e36;
+  text-decoration: underline;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+}
+
+.footer-card {
+  background: #ff705f;
+}
+
+footer.jumbotron {
+  background: #273c4f;
+}
+
+.col-border-right {
+  border-right: solid 1px #fe715f;
+  &.green { border-color: #00b2a2; }
+  &.yellow { border-color: #f5b547; }
+  &.blue { border-color: #57c3f2; }
+}
